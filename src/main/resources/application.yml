@@ -12,6 +12,8 @@ spring:
     timeout-per-shutdown-phase: 15s
   config:
     import: "" # When using Config Service, add "optional:configserver:"
+  reactor:
+    context-propagation: auto
   cloud:
     config:
       enabled: false # When using Config Service, set to true
