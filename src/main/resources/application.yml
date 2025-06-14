@@ -13,7 +13,7 @@ spring:
   config:
     import: "" # When using Config Service, add "optional:configserver:"
   reactor:
-    context-propagation: auto
+    context-propagation: limited
   cloud:
     config:
       enabled: false # When using Config Service, set to true
